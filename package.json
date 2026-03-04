@@ -1,0 +1,20 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "uma plataforma de perguntas e respostas ao estilo Yahoo respostas",
+  "license": "ISC",
+  "author": "dev_vantriande",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "bootstrap": "^5.3.8",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.18.2",
+    "sequelize": "^6.37.7"
+  }
+}
