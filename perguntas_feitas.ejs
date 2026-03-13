@@ -20,7 +20,16 @@
                 </div>
                 <div class="card-footer">
                     <a href="/pergunta_extenso/<%= pergunta.id%>" ><button class="btn btn-primary">Responder</button></a>
+                   
+                </div> 
+                
+                <div class="card-footer">
+                    <form action="/apagarpergunta" method="POST">
+                        <input type="hidden" name="id" value="<%= pergunta.id %>">
+                        <button class="btn btn-danger " type="submit">Apagar</button>
+                    </form>
                 </div>
+                
             </div>
                 <br>
             <% }) %>
@@ -28,4 +37,5 @@
 
 </body>
 <%- include('./partials/footer.ejs') %>
+
 
